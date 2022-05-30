@@ -1,0 +1,15 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+
+  }
+  #bucket img{
+    width: 250px;
+    height: 250px;
+  }
+  #bucket div{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 15px;
+  }
